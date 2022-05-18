@@ -1,7 +1,7 @@
 fill -294 21 0 -303 21 0 minecraft:quartz_block replace
 fill -293 19 0 -301 19 0 minecraft:quartz_block replace
-setblock -293 18 0 minecraft:chain_command_block[facing=down]{auto:1,Command:"/fill ~-1 ~3 ~ ~-10 ~3 ~ minecraft:quartz_slab"} replace
-setblock -297 20 0 minecraft:command_block[facing=down]{Command:"/fill ~3 ~1 ~ ~-6 ~1 ~ minecraft:quartz_block"} replace
+setblock -297 20 0 minecraft:command_block[facing=down]{Command:"function minecraft:release"
+setblock -293 18 0 minecraft:chain_command_block[facing=down]{auto:1,Command:"function minecraft:pressl"} replace
 fill -294 22 1 -299 22 1 minecraft:black_concrete replace
 fill -294 21 1 -299 21 1 minecraft:black_concrete replace
 fill -300 21 1 -303 21 1 minecraft:quartz_block replace
@@ -10,12 +10,12 @@ setblock -293 18 1 minecraft:chain_command_block[facing=down]{auto:1,Command:"/f
 setblock -297 20 1 minecraft:command_block[facing=down]{Command:"/fill ~3 ~2 ~ ~-2 ~2 ~ minecraft:black_concrete"} replace
 fill -294 21 2 -303 21 2 minecraft:quartz_block replace
 fill -293 19 2 -301 19 2 minecraft:quartz_block replace
-setblock -293 18 2 minecraft:chain_command_block[facing=down]{auto:1,Command:"/fill ~-1 ~3 ~ ~-10 ~3 ~ minecraft:quartz_slab"} replace
-setblock -297 20 2 minecraft:command_block[facing=down]{Command:"/fill ~3 ~1 ~ ~-6 ~1 ~ minecraft:quartz_block"} replace
+setblock -297 20 2 minecraft:command_block[facing=down]{Command:"function minecraft:release"
+setblock -293 18 2 minecraft:chain_command_block[facing=down]{auto:1,Command:"function minecraft:pressr"} replace
 fill -294 21 3 -303 21 3 minecraft:quartz_block replace
 fill -293 19 3 -301 19 3 minecraft:quartz_block replace
-setblock -293 18 3 minecraft:chain_command_block[facing=down]{auto:1,Command:"/fill ~-1 ~3 ~ ~-10 ~3 ~ minecraft:quartz_slab"} replace
-setblock -297 20 3 minecraft:command_block[facing=down]{Command:"/fill ~3 ~1 ~ ~-6 ~1 ~ minecraft:quartz_block"} replace
+setblock -297 20 3 minecraft:command_block[facing=down]{Command:"function minecraft:release"
+setblock -293 18 3 minecraft:chain_command_block[facing=down]{auto:1,Command:"function minecraft:pressl"} replace
 fill -294 22 4 -299 22 4 minecraft:black_concrete replace
 fill -294 21 4 -299 21 4 minecraft:black_concrete replace
 fill -300 21 4 -303 21 4 minecraft:quartz_block replace
@@ -24,8 +24,8 @@ setblock -293 18 4 minecraft:chain_command_block[facing=down]{auto:1,Command:"/f
 setblock -297 20 4 minecraft:command_block[facing=down]{Command:"/fill ~3 ~2 ~ ~-2 ~2 ~ minecraft:black_concrete"} replace
 fill -294 21 5 -303 21 5 minecraft:quartz_block replace
 fill -293 19 5 -301 19 5 minecraft:quartz_block replace
-setblock -293 18 5 minecraft:chain_command_block[facing=down]{auto:1,Command:"/fill ~-1 ~3 ~ ~-10 ~3 ~ minecraft:quartz_slab"} replace
-setblock -297 20 5 minecraft:command_block[facing=down]{Command:"/fill ~3 ~1 ~ ~-6 ~1 ~ minecraft:quartz_block"} replace
+setblock -297 20 5 minecraft:command_block[facing=down]{Command:"function minecraft:release"
+setblock -293 18 5 minecraft:chain_command_block[facing=down]{auto:1,Command:"function minecraft:pressm"} replace
 fill -294 22 6 -299 22 6 minecraft:black_concrete replace
 fill -294 21 6 -299 21 6 minecraft:black_concrete replace
 fill -300 21 6 -303 21 6 minecraft:quartz_block replace
@@ -34,12 +34,12 @@ setblock -293 18 6 minecraft:chain_command_block[facing=down]{auto:1,Command:"/f
 setblock -297 20 6 minecraft:command_block[facing=down]{Command:"/fill ~3 ~2 ~ ~-2 ~2 ~ minecraft:black_concrete"} replace
 fill -294 21 7 -303 21 7 minecraft:quartz_block replace
 fill -293 19 7 -301 19 7 minecraft:quartz_block replace
-setblock -293 18 7 minecraft:chain_command_block[facing=down]{auto:1,Command:"/fill ~-1 ~3 ~ ~-10 ~3 ~ minecraft:quartz_slab"} replace
-setblock -297 20 7 minecraft:command_block[facing=down]{Command:"/fill ~3 ~1 ~ ~-6 ~1 ~ minecraft:quartz_block"} replace
+setblock -297 20 7 minecraft:command_block[facing=down]{Command:"function minecraft:release"
+setblock -293 18 7 minecraft:chain_command_block[facing=down]{auto:1,Command:"function minecraft:pressr"} replace
 fill -294 21 8 -303 21 8 minecraft:quartz_block replace
 fill -293 19 8 -301 19 8 minecraft:quartz_block replace
-setblock -293 18 8 minecraft:chain_command_block[facing=down]{auto:1,Command:"/fill ~-1 ~3 ~ ~-10 ~3 ~ minecraft:quartz_slab"} replace
-setblock -297 20 8 minecraft:command_block[facing=down]{Command:"/fill ~3 ~1 ~ ~-6 ~1 ~ minecraft:quartz_block"} replace
+setblock -297 20 8 minecraft:command_block[facing=down]{Command:"function minecraft:release"
+setblock -293 18 8 minecraft:chain_command_block[facing=down]{auto:1,Command:"function minecraft:pressl"} replace
 fill -294 22 9 -299 22 9 minecraft:black_concrete replace
 fill -294 21 9 -299 21 9 minecraft:black_concrete replace
 fill -300 21 9 -303 21 9 minecraft:quartz_block replace
@@ -48,8 +48,8 @@ setblock -293 18 9 minecraft:chain_command_block[facing=down]{auto:1,Command:"/f
 setblock -297 20 9 minecraft:command_block[facing=down]{Command:"/fill ~3 ~2 ~ ~-2 ~2 ~ minecraft:black_concrete"} replace
 fill -294 21 10 -303 21 10 minecraft:quartz_block replace
 fill -293 19 10 -301 19 10 minecraft:quartz_block replace
-setblock -293 18 10 minecraft:chain_command_block[facing=down]{auto:1,Command:"/fill ~-1 ~3 ~ ~-10 ~3 ~ minecraft:quartz_slab"} replace
-setblock -297 20 10 minecraft:command_block[facing=down]{Command:"/fill ~3 ~1 ~ ~-6 ~1 ~ minecraft:quartz_block"} replace
+setblock -297 20 10 minecraft:command_block[facing=down]{Command:"function minecraft:release"
+setblock -293 18 10 minecraft:chain_command_block[facing=down]{auto:1,Command:"function minecraft:pressm"} replace
 fill -294 22 11 -299 22 11 minecraft:black_concrete replace
 fill -294 21 11 -299 21 11 minecraft:black_concrete replace
 fill -300 21 11 -303 21 11 minecraft:quartz_block replace
@@ -58,8 +58,8 @@ setblock -293 18 11 minecraft:chain_command_block[facing=down]{auto:1,Command:"/
 setblock -297 20 11 minecraft:command_block[facing=down]{Command:"/fill ~3 ~2 ~ ~-2 ~2 ~ minecraft:black_concrete"} replace
 fill -294 21 12 -303 21 12 minecraft:quartz_block replace
 fill -293 19 12 -301 19 12 minecraft:quartz_block replace
-setblock -293 18 12 minecraft:chain_command_block[facing=down]{auto:1,Command:"/fill ~-1 ~3 ~ ~-10 ~3 ~ minecraft:quartz_slab"} replace
-setblock -297 20 12 minecraft:command_block[facing=down]{Command:"/fill ~3 ~1 ~ ~-6 ~1 ~ minecraft:quartz_block"} replace
+setblock -297 20 12 minecraft:command_block[facing=down]{Command:"function minecraft:release"
+setblock -293 18 12 minecraft:chain_command_block[facing=down]{auto:1,Command:"function minecraft:pressm"} replace
 fill -294 22 13 -299 22 13 minecraft:black_concrete replace
 fill -294 21 13 -299 21 13 minecraft:black_concrete replace
 fill -300 21 13 -303 21 13 minecraft:quartz_block replace
@@ -68,12 +68,12 @@ setblock -293 18 13 minecraft:chain_command_block[facing=down]{auto:1,Command:"/
 setblock -297 20 13 minecraft:command_block[facing=down]{Command:"/fill ~3 ~2 ~ ~-2 ~2 ~ minecraft:black_concrete"} replace
 fill -294 21 14 -303 21 14 minecraft:quartz_block replace
 fill -293 19 14 -301 19 14 minecraft:quartz_block replace
-setblock -293 18 14 minecraft:chain_command_block[facing=down]{auto:1,Command:"/fill ~-1 ~3 ~ ~-10 ~3 ~ minecraft:quartz_slab"} replace
-setblock -297 20 14 minecraft:command_block[facing=down]{Command:"/fill ~3 ~1 ~ ~-6 ~1 ~ minecraft:quartz_block"} replace
+setblock -297 20 14 minecraft:command_block[facing=down]{Command:"function minecraft:release"
+setblock -293 18 14 minecraft:chain_command_block[facing=down]{auto:1,Command:"function minecraft:pressr"} replace
 fill -294 21 15 -303 21 15 minecraft:quartz_block replace
 fill -293 19 15 -301 19 15 minecraft:quartz_block replace
-setblock -293 18 15 minecraft:chain_command_block[facing=down]{auto:1,Command:"/fill ~-1 ~3 ~ ~-10 ~3 ~ minecraft:quartz_slab"} replace
-setblock -297 20 15 minecraft:command_block[facing=down]{Command:"/fill ~3 ~1 ~ ~-6 ~1 ~ minecraft:quartz_block"} replace
+setblock -297 20 15 minecraft:command_block[facing=down]{Command:"function minecraft:release"
+setblock -293 18 15 minecraft:chain_command_block[facing=down]{auto:1,Command:"function minecraft:pressl"} replace
 fill -294 22 16 -299 22 16 minecraft:black_concrete replace
 fill -294 21 16 -299 21 16 minecraft:black_concrete replace
 fill -300 21 16 -303 21 16 minecraft:quartz_block replace
@@ -82,8 +82,8 @@ setblock -293 18 16 minecraft:chain_command_block[facing=down]{auto:1,Command:"/
 setblock -297 20 16 minecraft:command_block[facing=down]{Command:"/fill ~3 ~2 ~ ~-2 ~2 ~ minecraft:black_concrete"} replace
 fill -294 21 17 -303 21 17 minecraft:quartz_block replace
 fill -293 19 17 -301 19 17 minecraft:quartz_block replace
-setblock -293 18 17 minecraft:chain_command_block[facing=down]{auto:1,Command:"/fill ~-1 ~3 ~ ~-10 ~3 ~ minecraft:quartz_slab"} replace
-setblock -297 20 17 minecraft:command_block[facing=down]{Command:"/fill ~3 ~1 ~ ~-6 ~1 ~ minecraft:quartz_block"} replace
+setblock -297 20 17 minecraft:command_block[facing=down]{Command:"function minecraft:release"
+setblock -293 18 17 minecraft:chain_command_block[facing=down]{auto:1,Command:"function minecraft:pressm"} replace
 fill -294 22 18 -299 22 18 minecraft:black_concrete replace
 fill -294 21 18 -299 21 18 minecraft:black_concrete replace
 fill -300 21 18 -303 21 18 minecraft:quartz_block replace
@@ -92,12 +92,12 @@ setblock -293 18 18 minecraft:chain_command_block[facing=down]{auto:1,Command:"/
 setblock -297 20 18 minecraft:command_block[facing=down]{Command:"/fill ~3 ~2 ~ ~-2 ~2 ~ minecraft:black_concrete"} replace
 fill -294 21 19 -303 21 19 minecraft:quartz_block replace
 fill -293 19 19 -301 19 19 minecraft:quartz_block replace
-setblock -293 18 19 minecraft:chain_command_block[facing=down]{auto:1,Command:"/fill ~-1 ~3 ~ ~-10 ~3 ~ minecraft:quartz_slab"} replace
-setblock -297 20 19 minecraft:command_block[facing=down]{Command:"/fill ~3 ~1 ~ ~-6 ~1 ~ minecraft:quartz_block"} replace
+setblock -297 20 19 minecraft:command_block[facing=down]{Command:"function minecraft:release"
+setblock -293 18 19 minecraft:chain_command_block[facing=down]{auto:1,Command:"function minecraft:pressr"} replace
 fill -294 21 20 -303 21 20 minecraft:quartz_block replace
 fill -293 19 20 -301 19 20 minecraft:quartz_block replace
-setblock -293 18 20 minecraft:chain_command_block[facing=down]{auto:1,Command:"/fill ~-1 ~3 ~ ~-10 ~3 ~ minecraft:quartz_slab"} replace
-setblock -297 20 20 minecraft:command_block[facing=down]{Command:"/fill ~3 ~1 ~ ~-6 ~1 ~ minecraft:quartz_block"} replace
+setblock -297 20 20 minecraft:command_block[facing=down]{Command:"function minecraft:release"
+setblock -293 18 20 minecraft:chain_command_block[facing=down]{auto:1,Command:"function minecraft:pressl"} replace
 fill -294 22 21 -299 22 21 minecraft:black_concrete replace
 fill -294 21 21 -299 21 21 minecraft:black_concrete replace
 fill -300 21 21 -303 21 21 minecraft:quartz_block replace
@@ -106,8 +106,8 @@ setblock -293 18 21 minecraft:chain_command_block[facing=down]{auto:1,Command:"/
 setblock -297 20 21 minecraft:command_block[facing=down]{Command:"/fill ~3 ~2 ~ ~-2 ~2 ~ minecraft:black_concrete"} replace
 fill -294 21 22 -303 21 22 minecraft:quartz_block replace
 fill -293 19 22 -301 19 22 minecraft:quartz_block replace
-setblock -293 18 22 minecraft:chain_command_block[facing=down]{auto:1,Command:"/fill ~-1 ~3 ~ ~-10 ~3 ~ minecraft:quartz_slab"} replace
-setblock -297 20 22 minecraft:command_block[facing=down]{Command:"/fill ~3 ~1 ~ ~-6 ~1 ~ minecraft:quartz_block"} replace
+setblock -297 20 22 minecraft:command_block[facing=down]{Command:"function minecraft:release"
+setblock -293 18 22 minecraft:chain_command_block[facing=down]{auto:1,Command:"function minecraft:pressm"} replace
 fill -294 22 23 -299 22 23 minecraft:black_concrete replace
 fill -294 21 23 -299 21 23 minecraft:black_concrete replace
 fill -300 21 23 -303 21 23 minecraft:quartz_block replace
@@ -116,8 +116,8 @@ setblock -293 18 23 minecraft:chain_command_block[facing=down]{auto:1,Command:"/
 setblock -297 20 23 minecraft:command_block[facing=down]{Command:"/fill ~3 ~2 ~ ~-2 ~2 ~ minecraft:black_concrete"} replace
 fill -294 21 24 -303 21 24 minecraft:quartz_block replace
 fill -293 19 24 -301 19 24 minecraft:quartz_block replace
-setblock -293 18 24 minecraft:chain_command_block[facing=down]{auto:1,Command:"/fill ~-1 ~3 ~ ~-10 ~3 ~ minecraft:quartz_slab"} replace
-setblock -297 20 24 minecraft:command_block[facing=down]{Command:"/fill ~3 ~1 ~ ~-6 ~1 ~ minecraft:quartz_block"} replace
+setblock -297 20 24 minecraft:command_block[facing=down]{Command:"function minecraft:release"
+setblock -293 18 24 minecraft:chain_command_block[facing=down]{auto:1,Command:"function minecraft:pressm"} replace
 fill -294 22 25 -299 22 25 minecraft:black_concrete replace
 fill -294 21 25 -299 21 25 minecraft:black_concrete replace
 fill -300 21 25 -303 21 25 minecraft:quartz_block replace
@@ -126,12 +126,12 @@ setblock -293 18 25 minecraft:chain_command_block[facing=down]{auto:1,Command:"/
 setblock -297 20 25 minecraft:command_block[facing=down]{Command:"/fill ~3 ~2 ~ ~-2 ~2 ~ minecraft:black_concrete"} replace
 fill -294 21 26 -303 21 26 minecraft:quartz_block replace
 fill -293 19 26 -301 19 26 minecraft:quartz_block replace
-setblock -293 18 26 minecraft:chain_command_block[facing=down]{auto:1,Command:"/fill ~-1 ~3 ~ ~-10 ~3 ~ minecraft:quartz_slab"} replace
-setblock -297 20 26 minecraft:command_block[facing=down]{Command:"/fill ~3 ~1 ~ ~-6 ~1 ~ minecraft:quartz_block"} replace
+setblock -297 20 26 minecraft:command_block[facing=down]{Command:"function minecraft:release"
+setblock -293 18 26 minecraft:chain_command_block[facing=down]{auto:1,Command:"function minecraft:pressr"} replace
 fill -294 21 27 -303 21 27 minecraft:quartz_block replace
 fill -293 19 27 -301 19 27 minecraft:quartz_block replace
-setblock -293 18 27 minecraft:chain_command_block[facing=down]{auto:1,Command:"/fill ~-1 ~3 ~ ~-10 ~3 ~ minecraft:quartz_slab"} replace
-setblock -297 20 27 minecraft:command_block[facing=down]{Command:"/fill ~3 ~1 ~ ~-6 ~1 ~ minecraft:quartz_block"} replace
+setblock -297 20 27 minecraft:command_block[facing=down]{Command:"function minecraft:release"
+setblock -293 18 27 minecraft:chain_command_block[facing=down]{auto:1,Command:"function minecraft:pressl"} replace
 fill -294 22 28 -299 22 28 minecraft:black_concrete replace
 fill -294 21 28 -299 21 28 minecraft:black_concrete replace
 fill -300 21 28 -303 21 28 minecraft:quartz_block replace
@@ -140,8 +140,8 @@ setblock -293 18 28 minecraft:chain_command_block[facing=down]{auto:1,Command:"/
 setblock -297 20 28 minecraft:command_block[facing=down]{Command:"/fill ~3 ~2 ~ ~-2 ~2 ~ minecraft:black_concrete"} replace
 fill -294 21 29 -303 21 29 minecraft:quartz_block replace
 fill -293 19 29 -301 19 29 minecraft:quartz_block replace
-setblock -293 18 29 minecraft:chain_command_block[facing=down]{auto:1,Command:"/fill ~-1 ~3 ~ ~-10 ~3 ~ minecraft:quartz_slab"} replace
-setblock -297 20 29 minecraft:command_block[facing=down]{Command:"/fill ~3 ~1 ~ ~-6 ~1 ~ minecraft:quartz_block"} replace
+setblock -297 20 29 minecraft:command_block[facing=down]{Command:"function minecraft:release"
+setblock -293 18 29 minecraft:chain_command_block[facing=down]{auto:1,Command:"function minecraft:pressm"} replace
 fill -294 22 30 -299 22 30 minecraft:black_concrete replace
 fill -294 21 30 -299 21 30 minecraft:black_concrete replace
 fill -300 21 30 -303 21 30 minecraft:quartz_block replace
@@ -150,12 +150,12 @@ setblock -293 18 30 minecraft:chain_command_block[facing=down]{auto:1,Command:"/
 setblock -297 20 30 minecraft:command_block[facing=down]{Command:"/fill ~3 ~2 ~ ~-2 ~2 ~ minecraft:black_concrete"} replace
 fill -294 21 31 -303 21 31 minecraft:quartz_block replace
 fill -293 19 31 -301 19 31 minecraft:quartz_block replace
-setblock -293 18 31 minecraft:chain_command_block[facing=down]{auto:1,Command:"/fill ~-1 ~3 ~ ~-10 ~3 ~ minecraft:quartz_slab"} replace
-setblock -297 20 31 minecraft:command_block[facing=down]{Command:"/fill ~3 ~1 ~ ~-6 ~1 ~ minecraft:quartz_block"} replace
+setblock -297 20 31 minecraft:command_block[facing=down]{Command:"function minecraft:release"
+setblock -293 18 31 minecraft:chain_command_block[facing=down]{auto:1,Command:"function minecraft:pressr"} replace
 fill -294 21 32 -303 21 32 minecraft:quartz_block replace
 fill -293 19 32 -301 19 32 minecraft:quartz_block replace
-setblock -293 18 32 minecraft:chain_command_block[facing=down]{auto:1,Command:"/fill ~-1 ~3 ~ ~-10 ~3 ~ minecraft:quartz_slab"} replace
-setblock -297 20 32 minecraft:command_block[facing=down]{Command:"/fill ~3 ~1 ~ ~-6 ~1 ~ minecraft:quartz_block"} replace
+setblock -297 20 32 minecraft:command_block[facing=down]{Command:"function minecraft:release"
+setblock -293 18 32 minecraft:chain_command_block[facing=down]{auto:1,Command:"function minecraft:pressl"} replace
 fill -294 22 33 -299 22 33 minecraft:black_concrete replace
 fill -294 21 33 -299 21 33 minecraft:black_concrete replace
 fill -300 21 33 -303 21 33 minecraft:quartz_block replace
@@ -164,8 +164,8 @@ setblock -293 18 33 minecraft:chain_command_block[facing=down]{auto:1,Command:"/
 setblock -297 20 33 minecraft:command_block[facing=down]{Command:"/fill ~3 ~2 ~ ~-2 ~2 ~ minecraft:black_concrete"} replace
 fill -294 21 34 -303 21 34 minecraft:quartz_block replace
 fill -293 19 34 -301 19 34 minecraft:quartz_block replace
-setblock -293 18 34 minecraft:chain_command_block[facing=down]{auto:1,Command:"/fill ~-1 ~3 ~ ~-10 ~3 ~ minecraft:quartz_slab"} replace
-setblock -297 20 34 minecraft:command_block[facing=down]{Command:"/fill ~3 ~1 ~ ~-6 ~1 ~ minecraft:quartz_block"} replace
+setblock -297 20 34 minecraft:command_block[facing=down]{Command:"function minecraft:release"
+setblock -293 18 34 minecraft:chain_command_block[facing=down]{auto:1,Command:"function minecraft:pressm"} replace
 fill -294 22 35 -299 22 35 minecraft:black_concrete replace
 fill -294 21 35 -299 21 35 minecraft:black_concrete replace
 fill -300 21 35 -303 21 35 minecraft:quartz_block replace
@@ -174,8 +174,8 @@ setblock -293 18 35 minecraft:chain_command_block[facing=down]{auto:1,Command:"/
 setblock -297 20 35 minecraft:command_block[facing=down]{Command:"/fill ~3 ~2 ~ ~-2 ~2 ~ minecraft:black_concrete"} replace
 fill -294 21 36 -303 21 36 minecraft:quartz_block replace
 fill -293 19 36 -301 19 36 minecraft:quartz_block replace
-setblock -293 18 36 minecraft:chain_command_block[facing=down]{auto:1,Command:"/fill ~-1 ~3 ~ ~-10 ~3 ~ minecraft:quartz_slab"} replace
-setblock -297 20 36 minecraft:command_block[facing=down]{Command:"/fill ~3 ~1 ~ ~-6 ~1 ~ minecraft:quartz_block"} replace
+setblock -297 20 36 minecraft:command_block[facing=down]{Command:"function minecraft:release"
+setblock -293 18 36 minecraft:chain_command_block[facing=down]{auto:1,Command:"function minecraft:pressm"} replace
 fill -294 22 37 -299 22 37 minecraft:black_concrete replace
 fill -294 21 37 -299 21 37 minecraft:black_concrete replace
 fill -300 21 37 -303 21 37 minecraft:quartz_block replace
@@ -184,12 +184,12 @@ setblock -293 18 37 minecraft:chain_command_block[facing=down]{auto:1,Command:"/
 setblock -297 20 37 minecraft:command_block[facing=down]{Command:"/fill ~3 ~2 ~ ~-2 ~2 ~ minecraft:black_concrete"} replace
 fill -294 21 38 -303 21 38 minecraft:quartz_block replace
 fill -293 19 38 -301 19 38 minecraft:quartz_block replace
-setblock -293 18 38 minecraft:chain_command_block[facing=down]{auto:1,Command:"/fill ~-1 ~3 ~ ~-10 ~3 ~ minecraft:quartz_slab"} replace
-setblock -297 20 38 minecraft:command_block[facing=down]{Command:"/fill ~3 ~1 ~ ~-6 ~1 ~ minecraft:quartz_block"} replace
+setblock -297 20 38 minecraft:command_block[facing=down]{Command:"function minecraft:release"
+setblock -293 18 38 minecraft:chain_command_block[facing=down]{auto:1,Command:"function minecraft:pressr"} replace
 fill -294 21 39 -303 21 39 minecraft:quartz_block replace
 fill -293 19 39 -301 19 39 minecraft:quartz_block replace
-setblock -293 18 39 minecraft:chain_command_block[facing=down]{auto:1,Command:"/fill ~-1 ~3 ~ ~-10 ~3 ~ minecraft:quartz_slab"} replace
-setblock -297 20 39 minecraft:command_block[facing=down]{Command:"/fill ~3 ~1 ~ ~-6 ~1 ~ minecraft:quartz_block"} replace
+setblock -297 20 39 minecraft:command_block[facing=down]{Command:"function minecraft:release"
+setblock -293 18 39 minecraft:chain_command_block[facing=down]{auto:1,Command:"function minecraft:pressl"} replace
 fill -294 22 40 -299 22 40 minecraft:black_concrete replace
 fill -294 21 40 -299 21 40 minecraft:black_concrete replace
 fill -300 21 40 -303 21 40 minecraft:quartz_block replace
@@ -198,8 +198,8 @@ setblock -293 18 40 minecraft:chain_command_block[facing=down]{auto:1,Command:"/
 setblock -297 20 40 minecraft:command_block[facing=down]{Command:"/fill ~3 ~2 ~ ~-2 ~2 ~ minecraft:black_concrete"} replace
 fill -294 21 41 -303 21 41 minecraft:quartz_block replace
 fill -293 19 41 -301 19 41 minecraft:quartz_block replace
-setblock -293 18 41 minecraft:chain_command_block[facing=down]{auto:1,Command:"/fill ~-1 ~3 ~ ~-10 ~3 ~ minecraft:quartz_slab"} replace
-setblock -297 20 41 minecraft:command_block[facing=down]{Command:"/fill ~3 ~1 ~ ~-6 ~1 ~ minecraft:quartz_block"} replace
+setblock -297 20 41 minecraft:command_block[facing=down]{Command:"function minecraft:release"
+setblock -293 18 41 minecraft:chain_command_block[facing=down]{auto:1,Command:"function minecraft:pressm"} replace
 fill -294 22 42 -299 22 42 minecraft:black_concrete replace
 fill -294 21 42 -299 21 42 minecraft:black_concrete replace
 fill -300 21 42 -303 21 42 minecraft:quartz_block replace
@@ -208,12 +208,12 @@ setblock -293 18 42 minecraft:chain_command_block[facing=down]{auto:1,Command:"/
 setblock -297 20 42 minecraft:command_block[facing=down]{Command:"/fill ~3 ~2 ~ ~-2 ~2 ~ minecraft:black_concrete"} replace
 fill -294 21 43 -303 21 43 minecraft:quartz_block replace
 fill -293 19 43 -301 19 43 minecraft:quartz_block replace
-setblock -293 18 43 minecraft:chain_command_block[facing=down]{auto:1,Command:"/fill ~-1 ~3 ~ ~-10 ~3 ~ minecraft:quartz_slab"} replace
-setblock -297 20 43 minecraft:command_block[facing=down]{Command:"/fill ~3 ~1 ~ ~-6 ~1 ~ minecraft:quartz_block"} replace
+setblock -297 20 43 minecraft:command_block[facing=down]{Command:"function minecraft:release"
+setblock -293 18 43 minecraft:chain_command_block[facing=down]{auto:1,Command:"function minecraft:pressr"} replace
 fill -294 21 44 -303 21 44 minecraft:quartz_block replace
 fill -293 19 44 -301 19 44 minecraft:quartz_block replace
-setblock -293 18 44 minecraft:chain_command_block[facing=down]{auto:1,Command:"/fill ~-1 ~3 ~ ~-10 ~3 ~ minecraft:quartz_slab"} replace
-setblock -297 20 44 minecraft:command_block[facing=down]{Command:"/fill ~3 ~1 ~ ~-6 ~1 ~ minecraft:quartz_block"} replace
+setblock -297 20 44 minecraft:command_block[facing=down]{Command:"function minecraft:release"
+setblock -293 18 44 minecraft:chain_command_block[facing=down]{auto:1,Command:"function minecraft:pressl"} replace
 fill -294 22 45 -299 22 45 minecraft:black_concrete replace
 fill -294 21 45 -299 21 45 minecraft:black_concrete replace
 fill -300 21 45 -303 21 45 minecraft:quartz_block replace
@@ -222,8 +222,8 @@ setblock -293 18 45 minecraft:chain_command_block[facing=down]{auto:1,Command:"/
 setblock -297 20 45 minecraft:command_block[facing=down]{Command:"/fill ~3 ~2 ~ ~-2 ~2 ~ minecraft:black_concrete"} replace
 fill -294 21 46 -303 21 46 minecraft:quartz_block replace
 fill -293 19 46 -301 19 46 minecraft:quartz_block replace
-setblock -293 18 46 minecraft:chain_command_block[facing=down]{auto:1,Command:"/fill ~-1 ~3 ~ ~-10 ~3 ~ minecraft:quartz_slab"} replace
-setblock -297 20 46 minecraft:command_block[facing=down]{Command:"/fill ~3 ~1 ~ ~-6 ~1 ~ minecraft:quartz_block"} replace
+setblock -297 20 46 minecraft:command_block[facing=down]{Command:"function minecraft:release"
+setblock -293 18 46 minecraft:chain_command_block[facing=down]{auto:1,Command:"function minecraft:pressm"} replace
 fill -294 22 47 -299 22 47 minecraft:black_concrete replace
 fill -294 21 47 -299 21 47 minecraft:black_concrete replace
 fill -300 21 47 -303 21 47 minecraft:quartz_block replace
@@ -232,8 +232,8 @@ setblock -293 18 47 minecraft:chain_command_block[facing=down]{auto:1,Command:"/
 setblock -297 20 47 minecraft:command_block[facing=down]{Command:"/fill ~3 ~2 ~ ~-2 ~2 ~ minecraft:black_concrete"} replace
 fill -294 21 48 -303 21 48 minecraft:quartz_block replace
 fill -293 19 48 -301 19 48 minecraft:quartz_block replace
-setblock -293 18 48 minecraft:chain_command_block[facing=down]{auto:1,Command:"/fill ~-1 ~3 ~ ~-10 ~3 ~ minecraft:quartz_slab"} replace
-setblock -297 20 48 minecraft:command_block[facing=down]{Command:"/fill ~3 ~1 ~ ~-6 ~1 ~ minecraft:quartz_block"} replace
+setblock -297 20 48 minecraft:command_block[facing=down]{Command:"function minecraft:release"
+setblock -293 18 48 minecraft:chain_command_block[facing=down]{auto:1,Command:"function minecraft:pressm"} replace
 fill -294 22 49 -299 22 49 minecraft:black_concrete replace
 fill -294 21 49 -299 21 49 minecraft:black_concrete replace
 fill -300 21 49 -303 21 49 minecraft:quartz_block replace
@@ -242,12 +242,12 @@ setblock -293 18 49 minecraft:chain_command_block[facing=down]{auto:1,Command:"/
 setblock -297 20 49 minecraft:command_block[facing=down]{Command:"/fill ~3 ~2 ~ ~-2 ~2 ~ minecraft:black_concrete"} replace
 fill -294 21 50 -303 21 50 minecraft:quartz_block replace
 fill -293 19 50 -301 19 50 minecraft:quartz_block replace
-setblock -293 18 50 minecraft:chain_command_block[facing=down]{auto:1,Command:"/fill ~-1 ~3 ~ ~-10 ~3 ~ minecraft:quartz_slab"} replace
-setblock -297 20 50 minecraft:command_block[facing=down]{Command:"/fill ~3 ~1 ~ ~-6 ~1 ~ minecraft:quartz_block"} replace
+setblock -297 20 50 minecraft:command_block[facing=down]{Command:"function minecraft:release"
+setblock -293 18 50 minecraft:chain_command_block[facing=down]{auto:1,Command:"function minecraft:pressr"} replace
 fill -294 21 51 -303 21 51 minecraft:quartz_block replace
 fill -293 19 51 -301 19 51 minecraft:quartz_block replace
-setblock -293 18 51 minecraft:chain_command_block[facing=down]{auto:1,Command:"/fill ~-1 ~3 ~ ~-10 ~3 ~ minecraft:quartz_slab"} replace
-setblock -297 20 51 minecraft:command_block[facing=down]{Command:"/fill ~3 ~1 ~ ~-6 ~1 ~ minecraft:quartz_block"} replace
+setblock -297 20 51 minecraft:command_block[facing=down]{Command:"function minecraft:release"
+setblock -293 18 51 minecraft:chain_command_block[facing=down]{auto:1,Command:"function minecraft:pressl"} replace
 fill -294 22 52 -299 22 52 minecraft:black_concrete replace
 fill -294 21 52 -299 21 52 minecraft:black_concrete replace
 fill -300 21 52 -303 21 52 minecraft:quartz_block replace
@@ -256,8 +256,8 @@ setblock -293 18 52 minecraft:chain_command_block[facing=down]{auto:1,Command:"/
 setblock -297 20 52 minecraft:command_block[facing=down]{Command:"/fill ~3 ~2 ~ ~-2 ~2 ~ minecraft:black_concrete"} replace
 fill -294 21 53 -303 21 53 minecraft:quartz_block replace
 fill -293 19 53 -301 19 53 minecraft:quartz_block replace
-setblock -293 18 53 minecraft:chain_command_block[facing=down]{auto:1,Command:"/fill ~-1 ~3 ~ ~-10 ~3 ~ minecraft:quartz_slab"} replace
-setblock -297 20 53 minecraft:command_block[facing=down]{Command:"/fill ~3 ~1 ~ ~-6 ~1 ~ minecraft:quartz_block"} replace
+setblock -297 20 53 minecraft:command_block[facing=down]{Command:"function minecraft:release"
+setblock -293 18 53 minecraft:chain_command_block[facing=down]{auto:1,Command:"function minecraft:pressm"} replace
 fill -294 22 54 -299 22 54 minecraft:black_concrete replace
 fill -294 21 54 -299 21 54 minecraft:black_concrete replace
 fill -300 21 54 -303 21 54 minecraft:quartz_block replace
@@ -266,12 +266,12 @@ setblock -293 18 54 minecraft:chain_command_block[facing=down]{auto:1,Command:"/
 setblock -297 20 54 minecraft:command_block[facing=down]{Command:"/fill ~3 ~2 ~ ~-2 ~2 ~ minecraft:black_concrete"} replace
 fill -294 21 55 -303 21 55 minecraft:quartz_block replace
 fill -293 19 55 -301 19 55 minecraft:quartz_block replace
-setblock -293 18 55 minecraft:chain_command_block[facing=down]{auto:1,Command:"/fill ~-1 ~3 ~ ~-10 ~3 ~ minecraft:quartz_slab"} replace
-setblock -297 20 55 minecraft:command_block[facing=down]{Command:"/fill ~3 ~1 ~ ~-6 ~1 ~ minecraft:quartz_block"} replace
+setblock -297 20 55 minecraft:command_block[facing=down]{Command:"function minecraft:release"
+setblock -293 18 55 minecraft:chain_command_block[facing=down]{auto:1,Command:"function minecraft:pressr"} replace
 fill -294 21 56 -303 21 56 minecraft:quartz_block replace
 fill -293 19 56 -301 19 56 minecraft:quartz_block replace
-setblock -293 18 56 minecraft:chain_command_block[facing=down]{auto:1,Command:"/fill ~-1 ~3 ~ ~-10 ~3 ~ minecraft:quartz_slab"} replace
-setblock -297 20 56 minecraft:command_block[facing=down]{Command:"/fill ~3 ~1 ~ ~-6 ~1 ~ minecraft:quartz_block"} replace
+setblock -297 20 56 minecraft:command_block[facing=down]{Command:"function minecraft:release"
+setblock -293 18 56 minecraft:chain_command_block[facing=down]{auto:1,Command:"function minecraft:pressl"} replace
 fill -294 22 57 -299 22 57 minecraft:black_concrete replace
 fill -294 21 57 -299 21 57 minecraft:black_concrete replace
 fill -300 21 57 -303 21 57 minecraft:quartz_block replace
@@ -280,8 +280,8 @@ setblock -293 18 57 minecraft:chain_command_block[facing=down]{auto:1,Command:"/
 setblock -297 20 57 minecraft:command_block[facing=down]{Command:"/fill ~3 ~2 ~ ~-2 ~2 ~ minecraft:black_concrete"} replace
 fill -294 21 58 -303 21 58 minecraft:quartz_block replace
 fill -293 19 58 -301 19 58 minecraft:quartz_block replace
-setblock -293 18 58 minecraft:chain_command_block[facing=down]{auto:1,Command:"/fill ~-1 ~3 ~ ~-10 ~3 ~ minecraft:quartz_slab"} replace
-setblock -297 20 58 minecraft:command_block[facing=down]{Command:"/fill ~3 ~1 ~ ~-6 ~1 ~ minecraft:quartz_block"} replace
+setblock -297 20 58 minecraft:command_block[facing=down]{Command:"function minecraft:release"
+setblock -293 18 58 minecraft:chain_command_block[facing=down]{auto:1,Command:"function minecraft:pressm"} replace
 fill -294 22 59 -299 22 59 minecraft:black_concrete replace
 fill -294 21 59 -299 21 59 minecraft:black_concrete replace
 fill -300 21 59 -303 21 59 minecraft:quartz_block replace
@@ -290,8 +290,8 @@ setblock -293 18 59 minecraft:chain_command_block[facing=down]{auto:1,Command:"/
 setblock -297 20 59 minecraft:command_block[facing=down]{Command:"/fill ~3 ~2 ~ ~-2 ~2 ~ minecraft:black_concrete"} replace
 fill -294 21 60 -303 21 60 minecraft:quartz_block replace
 fill -293 19 60 -301 19 60 minecraft:quartz_block replace
-setblock -293 18 60 minecraft:chain_command_block[facing=down]{auto:1,Command:"/fill ~-1 ~3 ~ ~-10 ~3 ~ minecraft:quartz_slab"} replace
-setblock -297 20 60 minecraft:command_block[facing=down]{Command:"/fill ~3 ~1 ~ ~-6 ~1 ~ minecraft:quartz_block"} replace
+setblock -297 20 60 minecraft:command_block[facing=down]{Command:"function minecraft:release"
+setblock -293 18 60 minecraft:chain_command_block[facing=down]{auto:1,Command:"function minecraft:pressm"} replace
 fill -294 22 61 -299 22 61 minecraft:black_concrete replace
 fill -294 21 61 -299 21 61 minecraft:black_concrete replace
 fill -300 21 61 -303 21 61 minecraft:quartz_block replace
@@ -300,12 +300,12 @@ setblock -293 18 61 minecraft:chain_command_block[facing=down]{auto:1,Command:"/
 setblock -297 20 61 minecraft:command_block[facing=down]{Command:"/fill ~3 ~2 ~ ~-2 ~2 ~ minecraft:black_concrete"} replace
 fill -294 21 62 -303 21 62 minecraft:quartz_block replace
 fill -293 19 62 -301 19 62 minecraft:quartz_block replace
-setblock -293 18 62 minecraft:chain_command_block[facing=down]{auto:1,Command:"/fill ~-1 ~3 ~ ~-10 ~3 ~ minecraft:quartz_slab"} replace
-setblock -297 20 62 minecraft:command_block[facing=down]{Command:"/fill ~3 ~1 ~ ~-6 ~1 ~ minecraft:quartz_block"} replace
+setblock -297 20 62 minecraft:command_block[facing=down]{Command:"function minecraft:release"
+setblock -293 18 62 minecraft:chain_command_block[facing=down]{auto:1,Command:"function minecraft:pressr"} replace
 fill -294 21 63 -303 21 63 minecraft:quartz_block replace
 fill -293 19 63 -301 19 63 minecraft:quartz_block replace
-setblock -293 18 63 minecraft:chain_command_block[facing=down]{auto:1,Command:"/fill ~-1 ~3 ~ ~-10 ~3 ~ minecraft:quartz_slab"} replace
-setblock -297 20 63 minecraft:command_block[facing=down]{Command:"/fill ~3 ~1 ~ ~-6 ~1 ~ minecraft:quartz_block"} replace
+setblock -297 20 63 minecraft:command_block[facing=down]{Command:"function minecraft:release"
+setblock -293 18 63 minecraft:chain_command_block[facing=down]{auto:1,Command:"function minecraft:pressl"} replace
 fill -294 22 64 -299 22 64 minecraft:black_concrete replace
 fill -294 21 64 -299 21 64 minecraft:black_concrete replace
 fill -300 21 64 -303 21 64 minecraft:quartz_block replace
@@ -314,8 +314,8 @@ setblock -293 18 64 minecraft:chain_command_block[facing=down]{auto:1,Command:"/
 setblock -297 20 64 minecraft:command_block[facing=down]{Command:"/fill ~3 ~2 ~ ~-2 ~2 ~ minecraft:black_concrete"} replace
 fill -294 21 65 -303 21 65 minecraft:quartz_block replace
 fill -293 19 65 -301 19 65 minecraft:quartz_block replace
-setblock -293 18 65 minecraft:chain_command_block[facing=down]{auto:1,Command:"/fill ~-1 ~3 ~ ~-10 ~3 ~ minecraft:quartz_slab"} replace
-setblock -297 20 65 minecraft:command_block[facing=down]{Command:"/fill ~3 ~1 ~ ~-6 ~1 ~ minecraft:quartz_block"} replace
+setblock -297 20 65 minecraft:command_block[facing=down]{Command:"function minecraft:release"
+setblock -293 18 65 minecraft:chain_command_block[facing=down]{auto:1,Command:"function minecraft:pressm"} replace
 fill -294 22 66 -299 22 66 minecraft:black_concrete replace
 fill -294 21 66 -299 21 66 minecraft:black_concrete replace
 fill -300 21 66 -303 21 66 minecraft:quartz_block replace
@@ -324,12 +324,12 @@ setblock -293 18 66 minecraft:chain_command_block[facing=down]{auto:1,Command:"/
 setblock -297 20 66 minecraft:command_block[facing=down]{Command:"/fill ~3 ~2 ~ ~-2 ~2 ~ minecraft:black_concrete"} replace
 fill -294 21 67 -303 21 67 minecraft:quartz_block replace
 fill -293 19 67 -301 19 67 minecraft:quartz_block replace
-setblock -293 18 67 minecraft:chain_command_block[facing=down]{auto:1,Command:"/fill ~-1 ~3 ~ ~-10 ~3 ~ minecraft:quartz_slab"} replace
-setblock -297 20 67 minecraft:command_block[facing=down]{Command:"/fill ~3 ~1 ~ ~-6 ~1 ~ minecraft:quartz_block"} replace
+setblock -297 20 67 minecraft:command_block[facing=down]{Command:"function minecraft:release"
+setblock -293 18 67 minecraft:chain_command_block[facing=down]{auto:1,Command:"function minecraft:pressr"} replace
 fill -294 21 68 -303 21 68 minecraft:quartz_block replace
 fill -293 19 68 -301 19 68 minecraft:quartz_block replace
-setblock -293 18 68 minecraft:chain_command_block[facing=down]{auto:1,Command:"/fill ~-1 ~3 ~ ~-10 ~3 ~ minecraft:quartz_slab"} replace
-setblock -297 20 68 minecraft:command_block[facing=down]{Command:"/fill ~3 ~1 ~ ~-6 ~1 ~ minecraft:quartz_block"} replace
+setblock -297 20 68 minecraft:command_block[facing=down]{Command:"function minecraft:release"
+setblock -293 18 68 minecraft:chain_command_block[facing=down]{auto:1,Command:"function minecraft:pressl"} replace
 fill -294 22 69 -299 22 69 minecraft:black_concrete replace
 fill -294 21 69 -299 21 69 minecraft:black_concrete replace
 fill -300 21 69 -303 21 69 minecraft:quartz_block replace
@@ -338,8 +338,8 @@ setblock -293 18 69 minecraft:chain_command_block[facing=down]{auto:1,Command:"/
 setblock -297 20 69 minecraft:command_block[facing=down]{Command:"/fill ~3 ~2 ~ ~-2 ~2 ~ minecraft:black_concrete"} replace
 fill -294 21 70 -303 21 70 minecraft:quartz_block replace
 fill -293 19 70 -301 19 70 minecraft:quartz_block replace
-setblock -293 18 70 minecraft:chain_command_block[facing=down]{auto:1,Command:"/fill ~-1 ~3 ~ ~-10 ~3 ~ minecraft:quartz_slab"} replace
-setblock -297 20 70 minecraft:command_block[facing=down]{Command:"/fill ~3 ~1 ~ ~-6 ~1 ~ minecraft:quartz_block"} replace
+setblock -297 20 70 minecraft:command_block[facing=down]{Command:"function minecraft:release"
+setblock -293 18 70 minecraft:chain_command_block[facing=down]{auto:1,Command:"function minecraft:pressm"} replace
 fill -294 22 71 -299 22 71 minecraft:black_concrete replace
 fill -294 21 71 -299 21 71 minecraft:black_concrete replace
 fill -300 21 71 -303 21 71 minecraft:quartz_block replace
@@ -348,8 +348,8 @@ setblock -293 18 71 minecraft:chain_command_block[facing=down]{auto:1,Command:"/
 setblock -297 20 71 minecraft:command_block[facing=down]{Command:"/fill ~3 ~2 ~ ~-2 ~2 ~ minecraft:black_concrete"} replace
 fill -294 21 72 -303 21 72 minecraft:quartz_block replace
 fill -293 19 72 -301 19 72 minecraft:quartz_block replace
-setblock -293 18 72 minecraft:chain_command_block[facing=down]{auto:1,Command:"/fill ~-1 ~3 ~ ~-10 ~3 ~ minecraft:quartz_slab"} replace
-setblock -297 20 72 minecraft:command_block[facing=down]{Command:"/fill ~3 ~1 ~ ~-6 ~1 ~ minecraft:quartz_block"} replace
+setblock -297 20 72 minecraft:command_block[facing=down]{Command:"function minecraft:release"
+setblock -293 18 72 minecraft:chain_command_block[facing=down]{auto:1,Command:"function minecraft:pressm"} replace
 fill -294 22 73 -299 22 73 minecraft:black_concrete replace
 fill -294 21 73 -299 21 73 minecraft:black_concrete replace
 fill -300 21 73 -303 21 73 minecraft:quartz_block replace
@@ -358,12 +358,12 @@ setblock -293 18 73 minecraft:chain_command_block[facing=down]{auto:1,Command:"/
 setblock -297 20 73 minecraft:command_block[facing=down]{Command:"/fill ~3 ~2 ~ ~-2 ~2 ~ minecraft:black_concrete"} replace
 fill -294 21 74 -303 21 74 minecraft:quartz_block replace
 fill -293 19 74 -301 19 74 minecraft:quartz_block replace
-setblock -293 18 74 minecraft:chain_command_block[facing=down]{auto:1,Command:"/fill ~-1 ~3 ~ ~-10 ~3 ~ minecraft:quartz_slab"} replace
-setblock -297 20 74 minecraft:command_block[facing=down]{Command:"/fill ~3 ~1 ~ ~-6 ~1 ~ minecraft:quartz_block"} replace
+setblock -297 20 74 minecraft:command_block[facing=down]{Command:"function minecraft:release"
+setblock -293 18 74 minecraft:chain_command_block[facing=down]{auto:1,Command:"function minecraft:pressr"} replace
 fill -294 21 75 -303 21 75 minecraft:quartz_block replace
 fill -293 19 75 -301 19 75 minecraft:quartz_block replace
-setblock -293 18 75 minecraft:chain_command_block[facing=down]{auto:1,Command:"/fill ~-1 ~3 ~ ~-10 ~3 ~ minecraft:quartz_slab"} replace
-setblock -297 20 75 minecraft:command_block[facing=down]{Command:"/fill ~3 ~1 ~ ~-6 ~1 ~ minecraft:quartz_block"} replace
+setblock -297 20 75 minecraft:command_block[facing=down]{Command:"function minecraft:release"
+setblock -293 18 75 minecraft:chain_command_block[facing=down]{auto:1,Command:"function minecraft:pressl"} replace
 fill -294 22 76 -299 22 76 minecraft:black_concrete replace
 fill -294 21 76 -299 21 76 minecraft:black_concrete replace
 fill -300 21 76 -303 21 76 minecraft:quartz_block replace
@@ -372,8 +372,8 @@ setblock -293 18 76 minecraft:chain_command_block[facing=down]{auto:1,Command:"/
 setblock -297 20 76 minecraft:command_block[facing=down]{Command:"/fill ~3 ~2 ~ ~-2 ~2 ~ minecraft:black_concrete"} replace
 fill -294 21 77 -303 21 77 minecraft:quartz_block replace
 fill -293 19 77 -301 19 77 minecraft:quartz_block replace
-setblock -293 18 77 minecraft:chain_command_block[facing=down]{auto:1,Command:"/fill ~-1 ~3 ~ ~-10 ~3 ~ minecraft:quartz_slab"} replace
-setblock -297 20 77 minecraft:command_block[facing=down]{Command:"/fill ~3 ~1 ~ ~-6 ~1 ~ minecraft:quartz_block"} replace
+setblock -297 20 77 minecraft:command_block[facing=down]{Command:"function minecraft:release"
+setblock -293 18 77 minecraft:chain_command_block[facing=down]{auto:1,Command:"function minecraft:pressm"} replace
 fill -294 22 78 -299 22 78 minecraft:black_concrete replace
 fill -294 21 78 -299 21 78 minecraft:black_concrete replace
 fill -300 21 78 -303 21 78 minecraft:quartz_block replace
@@ -382,12 +382,12 @@ setblock -293 18 78 minecraft:chain_command_block[facing=down]{auto:1,Command:"/
 setblock -297 20 78 minecraft:command_block[facing=down]{Command:"/fill ~3 ~2 ~ ~-2 ~2 ~ minecraft:black_concrete"} replace
 fill -294 21 79 -303 21 79 minecraft:quartz_block replace
 fill -293 19 79 -301 19 79 minecraft:quartz_block replace
-setblock -293 18 79 minecraft:chain_command_block[facing=down]{auto:1,Command:"/fill ~-1 ~3 ~ ~-10 ~3 ~ minecraft:quartz_slab"} replace
-setblock -297 20 79 minecraft:command_block[facing=down]{Command:"/fill ~3 ~1 ~ ~-6 ~1 ~ minecraft:quartz_block"} replace
+setblock -297 20 79 minecraft:command_block[facing=down]{Command:"function minecraft:release"
+setblock -293 18 79 minecraft:chain_command_block[facing=down]{auto:1,Command:"function minecraft:pressr"} replace
 fill -294 21 80 -303 21 80 minecraft:quartz_block replace
 fill -293 19 80 -301 19 80 minecraft:quartz_block replace
-setblock -293 18 80 minecraft:chain_command_block[facing=down]{auto:1,Command:"/fill ~-1 ~3 ~ ~-10 ~3 ~ minecraft:quartz_slab"} replace
-setblock -297 20 80 minecraft:command_block[facing=down]{Command:"/fill ~3 ~1 ~ ~-6 ~1 ~ minecraft:quartz_block"} replace
+setblock -297 20 80 minecraft:command_block[facing=down]{Command:"function minecraft:release"
+setblock -293 18 80 minecraft:chain_command_block[facing=down]{auto:1,Command:"function minecraft:pressl"} replace
 fill -294 22 81 -299 22 81 minecraft:black_concrete replace
 fill -294 21 81 -299 21 81 minecraft:black_concrete replace
 fill -300 21 81 -303 21 81 minecraft:quartz_block replace
@@ -396,8 +396,8 @@ setblock -293 18 81 minecraft:chain_command_block[facing=down]{auto:1,Command:"/
 setblock -297 20 81 minecraft:command_block[facing=down]{Command:"/fill ~3 ~2 ~ ~-2 ~2 ~ minecraft:black_concrete"} replace
 fill -294 21 82 -303 21 82 minecraft:quartz_block replace
 fill -293 19 82 -301 19 82 minecraft:quartz_block replace
-setblock -293 18 82 minecraft:chain_command_block[facing=down]{auto:1,Command:"/fill ~-1 ~3 ~ ~-10 ~3 ~ minecraft:quartz_slab"} replace
-setblock -297 20 82 minecraft:command_block[facing=down]{Command:"/fill ~3 ~1 ~ ~-6 ~1 ~ minecraft:quartz_block"} replace
+setblock -297 20 82 minecraft:command_block[facing=down]{Command:"function minecraft:release"
+setblock -293 18 82 minecraft:chain_command_block[facing=down]{auto:1,Command:"function minecraft:pressm"} replace
 fill -294 22 83 -299 22 83 minecraft:black_concrete replace
 fill -294 21 83 -299 21 83 minecraft:black_concrete replace
 fill -300 21 83 -303 21 83 minecraft:quartz_block replace
@@ -406,8 +406,8 @@ setblock -293 18 83 minecraft:chain_command_block[facing=down]{auto:1,Command:"/
 setblock -297 20 83 minecraft:command_block[facing=down]{Command:"/fill ~3 ~2 ~ ~-2 ~2 ~ minecraft:black_concrete"} replace
 fill -294 21 84 -303 21 84 minecraft:quartz_block replace
 fill -293 19 84 -301 19 84 minecraft:quartz_block replace
-setblock -293 18 84 minecraft:chain_command_block[facing=down]{auto:1,Command:"/fill ~-1 ~3 ~ ~-10 ~3 ~ minecraft:quartz_slab"} replace
-setblock -297 20 84 minecraft:command_block[facing=down]{Command:"/fill ~3 ~1 ~ ~-6 ~1 ~ minecraft:quartz_block"} replace
+setblock -297 20 84 minecraft:command_block[facing=down]{Command:"function minecraft:release"
+setblock -293 18 84 minecraft:chain_command_block[facing=down]{auto:1,Command:"function minecraft:pressm"} replace
 fill -294 22 85 -299 22 85 minecraft:black_concrete replace
 fill -294 21 85 -299 21 85 minecraft:black_concrete replace
 fill -300 21 85 -303 21 85 minecraft:quartz_block replace
@@ -416,12 +416,12 @@ setblock -293 18 85 minecraft:chain_command_block[facing=down]{auto:1,Command:"/
 setblock -297 20 85 minecraft:command_block[facing=down]{Command:"/fill ~3 ~2 ~ ~-2 ~2 ~ minecraft:black_concrete"} replace
 fill -294 21 86 -303 21 86 minecraft:quartz_block replace
 fill -293 19 86 -301 19 86 minecraft:quartz_block replace
-setblock -293 18 86 minecraft:chain_command_block[facing=down]{auto:1,Command:"/fill ~-1 ~3 ~ ~-10 ~3 ~ minecraft:quartz_slab"} replace
-setblock -297 20 86 minecraft:command_block[facing=down]{Command:"/fill ~3 ~1 ~ ~-6 ~1 ~ minecraft:quartz_block"} replace
+setblock -297 20 86 minecraft:command_block[facing=down]{Command:"function minecraft:release"
+setblock -293 18 86 minecraft:chain_command_block[facing=down]{auto:1,Command:"function minecraft:pressr"} replace
 fill -294 21 87 -303 21 87 minecraft:quartz_block replace
 fill -293 19 87 -301 19 87 minecraft:quartz_block replace
+setblock -297 20 87 minecraft:command_block[facing=down]{Command:"function minecraft:release"
 setblock -293 18 87 minecraft:chain_command_block[facing=down]{auto:1,Command:"/fill ~-1 ~3 ~ ~-10 ~3 ~ minecraft:quartz_slab"} replace
-setblock -297 20 87 minecraft:command_block[facing=down]{Command:"/fill ~3 ~1 ~ ~-6 ~1 ~ minecraft:quartz_block"} replace
 setblock -294 20 0 minecraft:repeater[facing=east] replace
 setblock -295 20 0 minecraft:repeater[facing=east] replace
 setblock -296 20 0 minecraft:repeater[facing=east] replace
