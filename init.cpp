@@ -58,6 +58,7 @@ int main()
         std::cout << "setblock -296 20 " << i << " minecraft:repeater[facing=east] destroy" << std::endl;
         std::cout << "setblock -293 19 " << i << " minecraft:command_block[facing=down]{Command:\"/playsound minecraft:piano." << i + 21 << " voice @p ~ ~ ~ 30\"} destroy" << std::endl;
         std::cout << "setblock -293 17 " << i << " minecraft:chain_command_block[facing=down]{auto:1,Command:\"/fill ~ ~3 ~ ~ ~3 ~ minecraft:air\"} destroy" << std::endl;
+        std::cout << "setblock -293 16 " << i << " minecraft:chain_command_block[facing=down]{auto:1,Command:\"particle minecraft:firework ~ ~10 ~0 0 0 0 0.05 30 force\"} destroy" << std::endl;
     }
     std::cout << "kill @e[type=minecraft:item]" << std::endl;
     return 0;
