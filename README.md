@@ -10,4 +10,4 @@
 材质包:(见 src 文件夹)
 functions 目录下为使用到的 mcfunction 文件
 
-测试视频见: [戳我](https://voyage-li.github.io/2022/05/20/mc-piano/)
+测试视频及简单教学见: [戳我](https://voyage-li.github.io/2022/05/20/mc-piano/)
